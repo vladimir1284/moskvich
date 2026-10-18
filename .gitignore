@@ -1,0 +1,16 @@
+# Arduino build output
+build/
+*.elf
+*.hex
+*.map
+*.o
+*.d
+
+# VSCode / Arduino IDE local state
+**/.cortex-debug.*
+
+# Copia de trabajo original (duplicada en firmware/moskvich/)
+/moskvich/
+
+# Fotos sin procesar en la raiz
+/*.jpg
